@@ -1,0 +1,59 @@
+# Build and IDE files
+bin/
+obj/
+*.user
+*.vspscc
+*.vssscc
+.vscode/
+.vs/
+
+# ASP.NET Core specific
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# User-specific settings
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Logs and Debugging
+logs/
+*.log
+debug/
+*.tlog
+*.cache
+*.pdb
+
+# Database
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+# Packages and dependencies
+packages/
+node_modules/
+wwwroot/lib/
+
+# Generated files
+Generated/
+.publish/
+.DS_Store
+Thumbs.db
+
+# Secrets (DO NOT COMMIT!)
+secrets.json
+.env
+
+# Docker and Kubernetes
+docker-compose.override.yml
+.dockerignore
+.kube/
+
+# Rider IDE
+.idea/
+*.iml
